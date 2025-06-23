@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	
+	<!-- title -->
+	
+	<title>
+	
+		05 STL  容器 | 
+	 
+	Hexo
+	</title>
+	
+	<!-- keywords,description -->
+	
+	
+
+	<!-- favicon -->
+	
+
+
+	<!-- search -->
+	<script>
+		var searchEngine = "";
+		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
+			searchEngine = "https://www.google.com/search?q=";
+		}
+		var homeHost = "";
+		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
+			homeHost = window.location.host;
+		}
+	</script>
+
+
+	
+<link rel="stylesheet" href="/css/main.css">
+
+	
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/darcula.min.css">
+
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+
+	
+<script src="/js/main.js"></script>
+
+
+	
+	
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+	<header id="header">
+    <a id="title" href="/" class="logo">Hexo</a>
+
+	<ul id="menu">
+    
+
+    
+
+    
+
+    
+  
+    
+	</ul>
+</header>
+
+	
+<div id="sidebar">
+	<button id="sidebar-toggle" class="toggle" ><i class="fa fa-arrow-right " aria-hidden="true"></i></button>
+	
+	<div id="site-toc">
+		<input id="search-input" class="search-input" type="search" placeholder="Press Enter to search">
+		<div id="tree">
+			
+
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										C++
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/2025/06/23/C++/01-%E5%9F%BA%E7%A1%80/">
+                     
+										    01-基础
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2025/06/23/C++/02-%E6%8C%87%E9%92%88-%E7%BB%93%E6%9E%84%E4%BD%93-%E5%BC%95%E7%94%A8/">
+                     
+										    02-指针-结构体-引用
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2025/06/23/C++/03-%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/">
+                     
+										    03-类与对象
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2025/06/23/C++/04-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">
+                     
+										    04-文件操作
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file active">
+									<a href="/2025/06/23/C++/05%20STL%20%20%E5%AE%B9%E5%99%A8/">
+                     
+										    05 STL  容器
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2025/06/23/C++/06%20%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0/">
+                     
+										    06 常用容器的基本使用函数
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2025/06/23/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">
+                     
+										    Java基础语法
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2025/06/23/OOP%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/">
+                     
+										    OOP面向对象
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+		</div>
+	</div>
+</div>
+
+	<!-- 引入正文 -->
+	<div id="content" class="content">
+		<h1 id="article-title">
+	05 STL  容器
+</h1>
+
+<!-- meta -->
+<div class="article-meta">
+	
+
+	<span>John Doe</span>
+	<span>2025-06-23 20:02:32</span>
+
+  <div id="article-categories">
+    
+		  <span>Categories：</span>
+      
+    
+
+    
+		    <span>Tags：</span>
+        
+    
+  </div>
+
+</div>
+
+<!-- content -->
+<div id="article-content">
+	<h1 id="容器"><a href="#容器" class="headerlink" title="容器"></a>容器</h1><table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">string</th>
+<th align="left">vector</th>
+<th align="left">deque</th>
+<th align="left">stack</th>
+<th align="left">queue</th>
+<th align="left">list</th>
+<th align="left">set&#x2F;multiset</th>
+<th align="left">map</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">构造+赋值</td>
+<td align="left">string  s1&#x3D;”hello”;<br>string s2(s1);<br>string s3&#x3D;s2;</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">set s1;<br>set s2(s1);<br>set s3&#x3D;s2;</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">大小</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">s1.size();</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">为空</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">s1.empty（）；</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">交换</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">s1.swap(S2);</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">插入</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">s1.insert(10);</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">删除</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">clear();<br>remove<br></td>
+<td align="left">s1.clear();<br>s1.erase(pos);<br>s1.esrase(beg,end);<br>s1.erase(10);</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">查找</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">s1.find(10);</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">统计</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">s1.count(10);</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">排序</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h2 id="list"><a href="#list" class="headerlink" title="list"></a>list</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">print</span><span class="params">(<span class="type">const</span> list&lt;<span class="type">int</span>&gt;l)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">for</span> (list&lt;<span class="type">int</span>&gt;::const_iterator it = l.<span class="built_in">begin</span>(); it != l.<span class="built_in">end</span>(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;list&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;func.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">mycompare</span><span class="params">(<span class="type">int</span> v1, <span class="type">int</span> v2)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> v1 &gt; v2;  <span class="comment">//降序</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test0</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	list&lt;<span class="type">int</span>&gt;l1;</span><br><span class="line">	l<span class="number">1.</span><span class="built_in">push_back</span>(<span class="number">100</span>);</span><br><span class="line">	l<span class="number">1.</span><span class="built_in">push_back</span>(<span class="number">20</span>);</span><br><span class="line">	l<span class="number">1.</span><span class="built_in">push_back</span>(<span class="number">30</span>);</span><br><span class="line">	l<span class="number">1.</span><span class="built_in">push_back</span>(<span class="number">40</span>);</span><br><span class="line"></span><br><span class="line">	<span class="built_in">printlist</span>(l1);</span><br><span class="line">	<span class="comment">//front()  back()</span></span><br><span class="line">	cout &lt;&lt; l<span class="number">1.f</span>ront() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; l<span class="number">1.</span><span class="built_in">back</span>() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//支持相邻访问，不支持随机访问</span></span><br><span class="line">	list&lt;<span class="type">int</span>&gt;::iterator it = l<span class="number">1.</span><span class="built_in">begin</span>();</span><br><span class="line">	it++;   <span class="comment">//支持++但不支持it=it+1；it=it+2；</span></span><br><span class="line">	cout &lt;&lt; *it &lt;&lt; endl;</span><br><span class="line">	it--;   <span class="comment">//同理</span></span><br><span class="line">	cout &lt;&lt; *it &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//反转reverse</span></span><br><span class="line">	l<span class="number">1.</span><span class="built_in">reverse</span>();</span><br><span class="line">	<span class="built_in">printlist</span>(l1);</span><br><span class="line"></span><br><span class="line">	<span class="comment">//排序</span></span><br><span class="line">	<span class="comment">//不支持随机访问迭代器的容器，不可以用标准算法，例如sort();但内部会提供一些对应的算法sort(l.begin(),l.end());</span></span><br><span class="line">	l<span class="number">1.</span><span class="built_in">sort</span>();</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;升序排序后：&quot;</span> ;</span><br><span class="line">	<span class="built_in">printlist</span>(l1);</span><br><span class="line">	l<span class="number">1.</span><span class="built_in">sort</span>(mycompare);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;降序排序后：&quot;</span>;</span><br><span class="line">	<span class="built_in">printlist</span>(l1);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">test0</span>();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;list&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;func.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">person</span></span><br><span class="line">&#123;</span><br><span class="line">	</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line">	<span class="type">int</span> high;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">person</span>(string name0, <span class="type">int</span> age0, <span class="type">int</span> high0)</span><br><span class="line">	&#123;</span><br><span class="line">		name = name0;</span><br><span class="line">		age = age0;</span><br><span class="line">		high = high0;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">printpersonlist</span><span class="params">(list&lt;person&gt;p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">for</span> (list&lt;person&gt;::iterator it = p.<span class="built_in">begin</span>(); it != p.<span class="built_in">end</span>(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;姓名:&quot;</span> &lt;&lt; (*it).name&lt;&lt; <span class="string">&quot;\t年龄：&quot;</span> &lt;&lt; (*it).age &lt;&lt; <span class="string">&quot;\t身高：&quot;</span> &lt;&lt; (*it).high &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//指定排序规则</span></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">personcampare</span><span class="params">(person p1, person p2)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (p<span class="number">1.</span>age == p<span class="number">2.</span>age)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">return</span> p<span class="number">1.</span>high &gt; p<span class="number">2.</span>high;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">return</span> p<span class="number">1.</span>age &lt; p<span class="number">2.</span>age;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test0</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">person <span class="title">p1</span><span class="params">(<span class="string">&quot;A&quot;</span>, <span class="number">10</span>, <span class="number">150</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p2</span><span class="params">(<span class="string">&quot;B&quot;</span>, <span class="number">20</span>, <span class="number">130</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p3</span><span class="params">(<span class="string">&quot;C&quot;</span>, <span class="number">10</span>, <span class="number">170</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p4</span><span class="params">(<span class="string">&quot;D&quot;</span>, <span class="number">10</span>, <span class="number">160</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p5</span><span class="params">(<span class="string">&quot;E&quot;</span>, <span class="number">30</span>, <span class="number">180</span>)</span></span>;</span><br><span class="line"></span><br><span class="line">	list&lt;person&gt;p;</span><br><span class="line">	p.<span class="built_in">push_back</span>(p1);</span><br><span class="line">	p.<span class="built_in">push_back</span>(p2);</span><br><span class="line">	p.<span class="built_in">push_back</span>(p3);</span><br><span class="line">	p.<span class="built_in">push_back</span>(p4);</span><br><span class="line">	p.<span class="built_in">push_back</span>(p5);</span><br><span class="line"></span><br><span class="line">	<span class="built_in">printpersonlist</span>(p);</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;按年龄升序排序&quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;---------------------------&quot;</span> &lt;&lt; endl;</span><br><span class="line">	p.<span class="built_in">sort</span>(personcampare);</span><br><span class="line">	<span class="built_in">printpersonlist</span>(p);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">test0</span>();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="set-multiset"><a href="#set-multiset" class="headerlink" title="set&#x2F;multiset"></a>set&#x2F;multiset</h2><blockquote>
+<p>   set  :所有元素都会在插入时自动排序，不允许有重复元素<br>multiset:所有元素都会在插入时自动排序，允许有重复元素<br>关联式容器，底层结构是用二叉树实现的。</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">set&lt;<span class="type">int</span>&gt; s1;</span><br><span class="line">set&lt;<span class="type">int</span>&gt;s2=s1;</span><br><span class="line"></span><br><span class="line"><span class="comment">//只能insert插入数据；</span></span><br><span class="line">s<span class="number">1.</span><span class="built_in">insert</span>(<span class="number">10</span>);</span><br><span class="line"></span><br><span class="line">	set&lt;<span class="type">int</span>&gt;::iterator pos = s<span class="number">1.f</span>ind(<span class="number">330</span>);</span><br><span class="line">	<span class="keyword">if</span> (pos != s<span class="number">1.</span><span class="built_in">end</span>())</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;找到元素&quot;</span> &lt;&lt; *pos &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> </span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;未找到元素&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="pair"><a href="#pair" class="headerlink" title="pair"></a>pair</h3><pre><code>pair&lt;string, int&gt; p1(&quot;武佳旭&quot;, 24);
+cout &lt;&lt; &quot;姓名：&quot; &lt;&lt; p1.first &lt;&lt; &quot;\t年龄：&quot; &lt;&lt; p1.second &lt;&lt; endl;
+
+pair&lt;string, int&gt; p2 = make_pair(&quot;武佳旭&quot;, 24);
+cout &lt;&lt; &quot;姓名：&quot; &lt;&lt; p2.first &lt;&lt; &quot;\t年龄：&quot; &lt;&lt; p2.second &lt;&lt; endl;
+</code></pre>
+<h3 id="set容器排序"><a href="#set容器排序" class="headerlink" title="set容器排序"></a>set容器排序</h3><h5 id="从大到小排序："><a href="#从大到小排序：" class="headerlink" title="从大到小排序："></a>从大到小排序：</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;list&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;func.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;set&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//仿函数</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">compare</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">int</span> v1,<span class="type">int</span> v2)</span><span class="type">const</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> v1 &gt; v2;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test0</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	set&lt;<span class="type">int</span>,compare&gt; s1;</span><br><span class="line">	s<span class="number">1.</span><span class="built_in">insert</span>(<span class="number">12</span>);</span><br><span class="line">	s<span class="number">1.</span><span class="built_in">insert</span>(<span class="number">33</span>);</span><br><span class="line">	s<span class="number">1.</span><span class="built_in">insert</span>(<span class="number">55</span>);</span><br><span class="line">	s<span class="number">1.</span><span class="built_in">insert</span>(<span class="number">22</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (set&lt;<span class="type">int</span>, compare&gt;::iterator it = s<span class="number">1.</span><span class="built_in">begin</span>(); it != s<span class="number">1.</span><span class="built_in">end</span>(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; <span class="string">&quot;  &quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">test0</span>();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h5 id="输入自定义类型数据排序"><a href="#输入自定义类型数据排序" class="headerlink" title="输入自定义类型数据排序"></a>输入自定义类型数据排序</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;func.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">person</span></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line">	<span class="type">int</span> high;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">person</span>(string name0, <span class="type">int</span> age0, <span class="type">int</span> high0)</span><br><span class="line">	&#123;</span><br><span class="line">		name = name0;</span><br><span class="line">		age = age0;</span><br><span class="line">		high = high0;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">compareperson</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> person &amp;p1, <span class="type">const</span> person &amp;p2)</span><span class="type">const</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> p<span class="number">1.</span>age &gt; p<span class="number">2.</span>age;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test0</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">person <span class="title">p1</span><span class="params">(<span class="string">&quot;A&quot;</span>, <span class="number">10</span>, <span class="number">150</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p2</span><span class="params">(<span class="string">&quot;B&quot;</span>, <span class="number">20</span>, <span class="number">130</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p3</span><span class="params">(<span class="string">&quot;C&quot;</span>, <span class="number">10</span>, <span class="number">170</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p4</span><span class="params">(<span class="string">&quot;D&quot;</span>, <span class="number">10</span>, <span class="number">160</span>)</span></span>;</span><br><span class="line">	<span class="function">person <span class="title">p5</span><span class="params">(<span class="string">&quot;E&quot;</span>, <span class="number">30</span>, <span class="number">180</span>)</span></span>;</span><br><span class="line"></span><br><span class="line">	set&lt;person, compareperson&gt;p;</span><br><span class="line">	p.<span class="built_in">insert</span>(p1);</span><br><span class="line">	p.<span class="built_in">insert</span>(p2);</span><br><span class="line">	p.<span class="built_in">insert</span>(p3);</span><br><span class="line">	p.<span class="built_in">insert</span>(p4);</span><br><span class="line">	p.<span class="built_in">insert</span>(p5);</span><br><span class="line"></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">for</span> (set&lt;person,compareperson&gt;::iterator it = p.<span class="built_in">begin</span>(); it != p.<span class="built_in">end</span>(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; (*it).name &lt;&lt;<span class="string">&quot;  &quot;</span> &lt;&lt; (*it).age &lt;&lt;<span class="string">&quot;  &quot;</span>&lt;&lt; (*it).high &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">test0</span>();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="map-mutlimap"><a href="#map-mutlimap" class="headerlink" title="map &#x2F; mutlimap"></a>map &#x2F; mutlimap</h2><p>简介：<br>map中所有元素都是pair<br>pair中第一个元素为key值（键值），起索引作业；第二个元素为value（实值）<br>所有元素会根据元素的键值自动排序</p>
+<p>本质：关联式容器，底层结构是二叉树实现的</p>
+<p>优点：<br>可以根据key值快速找到value值</p>
+<p>map和multimap的区别：<br>map不允许容器中有重复的key元素；<br>multimap允许容器中有重复的key值。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!-- post-guide -->
+
+    <div class="post-guide">
+        <div class="item left">
+            
+              <a href="/2025/06/23/C++/06%20%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  06 常用容器的基本使用函数
+              </a>
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2025/06/23/C++/04-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">
+                04-文件操作
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
+
+
+<!-- comment - giscus -->
+
+
+<!-- comment - valine -->
+
+
+<script>
+	
+	
+</script>
+
+	</div>
+	<div id="footer">
+	<p>
+	©<span id="footerYear-start"></span>-<span id="footerYear-end"></span>
+
+	
+	    <a href="/">John Doe</a>
+	
+	
+	
+	<br>
+	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
+	by <a href="//wujun.me" target="_blank">Wu Jun</a>
+	Powered by <a href="//hexo.io" target="_blank">Hexo</a>
+	</p>
+</div>
+
+
+<script type="text/javascript">
+	document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
+</script>
+
+<script type="text/javascript">
+	document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
+</script>
+
+	<button id="totop-toggle" class="toggle"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+</body>
+</html>

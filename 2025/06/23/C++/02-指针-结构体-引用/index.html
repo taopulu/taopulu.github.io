@@ -8,6 +8,8 @@
 	<!-- title -->
 	
 	<title>
+	
+		02-指针-结构体-引用 | 
 	 
 	Hexo
 	</title>
@@ -113,7 +115,7 @@
 							</ul>
 			
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2025/06/23/C++/02-%E6%8C%87%E9%92%88-%E7%BB%93%E6%9E%84%E4%BD%93-%E5%BC%95%E7%94%A8/">
                      
 										    02-指针-结构体-引用
@@ -199,207 +201,76 @@
 
 	<!-- 引入正文 -->
 	<div id="content" class="content">
-		<div id="index">
+		<h1 id="article-title">
+	02-指针-结构体-引用
+</h1>
+
+<!-- meta -->
+<div class="article-meta">
 	
-		<div class="index-li">
-			<a href="/2025/06/23/C++/06%20%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0/">
-				<h2 class="index-title">
-					06 常用容器的基本使用函数
-				</h2>
-				<div class="index-brief">
-					容器的基本函数string——字符串vector——向量list——双向循环链表deque——双端队列stack——栈queue——队列priority_queue——优先队列（堆）基于红黑树（有序）set——集合（不允许重复）multiset——多重集合（允许重复）map——映射（键值对）（不允许
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2025/06/23/C++/05%20STL%20%20%E5%AE%B9%E5%99%A8/">
-				<h2 class="index-title">
-					05 STL  容器
-				</h2>
-				<div class="index-brief">
-					容器
 
+	<span>John Doe</span>
+	<span>2025-06-23 20:02:32</span>
 
+  <div id="article-categories">
+    
+		  <span>Categories：</span>
+      
+    
 
-string
-vector
-deque
-stack
-queue
-list
-set&#x2F;multiset
-map
+    
+		    <span>Tags：</span>
+        
+    
+  </div>
 
-
-
-构造+赋值
-string  s1&#x3D;”hello”;string s2(s1);string s3&#x3D;s2;
-
-
-
-
-
-set s1;set s2(
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2025/06/23/C++/04-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">
-				<h2 class="index-title">
-					04-文件操作
-				</h2>
-				<div class="index-brief">
-					include &lt;&gt;fstream&gt;文件类型：
-
-文本文件
-二进制文件
-
-
-
-
-操作文件：
-
-ofstream    写
-ifstream      读
-fstream        读写
-
-写文件
-1、包含头文件     #include &lt;&gt;fstream&gt;
-
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2025/06/23/C++/03-%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/">
-				<h2 class="index-title">
-					03-类与对象
-				</h2>
-				<div class="index-brief">
-					类与对象封装、继承、多肽
-1、封装p99基础语法1234567891011121314151617181920212223242526272829303132333435363738394041424344454647#include &lt;iostream&gt;using namespace 
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2025/06/23/C++/02-%E6%8C%87%E9%92%88-%E7%BB%93%E6%9E%84%E4%BD%93-%E5%BC%95%E7%94%A8/">
-				<h2 class="index-title">
-					02-指针-结构体-引用
-				</h2>
-				<div class="index-brief">
-					第二章 指针int * p &#x3D; &a;&#x2F;&#x2F;p：地址   内存：4字节（32位），8字节（64位）&#x2F;&#x2F;* p：值
-123456数据类型 *指针变量名 = &amp;变量名;*指针变量名 = &amp;变量名;int a;int *p = &amp;a;
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2025/06/23/C++/01-%E5%9F%BA%E7%A1%80/">
-				<h2 class="index-title">
-					01-基础
-				</h2>
-				<div class="index-brief">
-					注释：&#x2F;&#x2F;单行注释
-&#x2F;*多行注释*&#x2F;
-变量：int a &#x3D; 10;变量的声明(不分配内存)：extern 数据类型 变量名;
-局部变量：在函数或一个代码块内部声明的变量，称为局部变量。它们只能被函数内部或者代码块内部的语句使用。全局变量：在所有函数外
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2025/06/23/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">
-				<h2 class="index-title">
-					Java基础语法
-				</h2>
-				<div class="index-brief">
-					文件名和public类名保持一致大小写敏感
-12345public class hello &#123;      public static void main(String[] args) &#123;          System.out.println(&quot;hello,word&q
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2025/06/23/OOP%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/">
-				<h2 class="index-title">
-					OOP面向对象
-				</h2>
-				<div class="index-brief">
-					方法调用：
-有static，可直接用类名调用无static，需要实例化对象，才能调用
-一个Java类中可以有多个class类，但是只能有一个public class 类
-
-匿名对象new Student().func();   &#x2F;&#x2F;没有名字的初始化类，不用将实例保存在变量中
-
-封
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-06-23</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-	
-	<div id="index-paginator">
-		
-	</div>
 </div>
+
+<!-- content -->
+<div id="article-content">
+	<h1 id="第二章-指针"><a href="#第二章-指针" class="headerlink" title="第二章 指针"></a><strong>第二章 指针</strong></h1><p>int * p &#x3D; &a;<br>&#x2F;&#x2F;p：地址   内存：4字节（32位），8字节（64位）<br>&#x2F;&#x2F;* p：值</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">数据类型 *指针变量名 = &amp;变量名;</span><br><span class="line">*指针变量名 = &amp;变量名;</span><br><span class="line"><span class="type">int</span> a;</span><br><span class="line"><span class="type">int</span> *p = &amp;a;</span><br><span class="line"><span class="type">int</span> *p2;</span><br><span class="line">p2 = &amp;a;</span><br></pre></td></tr></table></figure>
+
+<h2 id="空指针："><a href="#空指针：" class="headerlink" title="空指针："></a>空指针：</h2><p>1、指针变量初始化     int* p &#x3D; NULL;      新标：int* p &#x3D; nullptr;<br>2、不可以访问         0~255之间的内存编号是系统占用的。</p>
+<h2 id="野指针："><a href="#野指针：" class="headerlink" title="野指针："></a>野指针：</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>* p = (<span class="type">int</span> *)<span class="number">0x1100</span>;      <span class="comment">//错误，应避免</span></span><br><span class="line"><span class="type">const</span>修饰指针：</span><br><span class="line"><span class="type">const</span> <span class="type">int</span>* p = &amp;a;   <span class="comment">//修饰指针，常量指针，指向可变，值不可变</span></span><br><span class="line"><span class="type">int</span>* <span class="type">const</span> p = &amp;a;   <span class="comment">//修饰常量，指针常量，指向不可变，值可变</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span>* <span class="type">const</span> p = &amp;a;   <span class="comment">//既修饰指针，又修饰常量，指向不可变，值不可变</span></span><br></pre></td></tr></table></figure>
+
+
+<p>指针&amp;数组：<br>数组名就是数组的首地址。</p>
+
+</div>
+
+<!-- post-guide -->
+
+    <div class="post-guide">
+        <div class="item left">
+            
+              <a href="/2025/06/23/C++/03-%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  03-类与对象
+              </a>
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2025/06/23/C++/01-%E5%9F%BA%E7%A1%80/">
+                01-基础
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
+
+
+<!-- comment - giscus -->
+
+
+<!-- comment - valine -->
+
+
+<script>
+	
+	
+</script>
 
 	</div>
 	<div id="footer">
